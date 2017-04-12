@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 .navbar-brand {
-  font-damily: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
 .navbar-default .navbar-brand,
@@ -46,6 +46,17 @@ h1, h2, h3 {
   &:hover {
     color: black;
     opacity: 0.50;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid black;
+  &:hover, &:focus {
+    background-color: #F8FFAE;
   }
 }
 
